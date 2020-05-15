@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="General">
+	    <EditTextPreference
+	        android:key="pref_duration"
+	        android:title="@string/pref_duration_descr"
+	        android:summary="@string/pref_duration_summ"
+	        android:defaultValue="6" />
+    </PreferenceCategory>
+</PreferenceScreen>
+
